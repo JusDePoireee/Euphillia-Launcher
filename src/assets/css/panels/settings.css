@@ -8,37 +8,38 @@
     background: #00000080;
     display: flex;
     justify-content: center;
+    border: none;
 }
 
 .tab-btn-css {
-    border-radius: 23px;
+    border-radius: 15px;
     width: 160px;
     height: 37px;
     margin: auto 30px;
-    background: #00bd7a;
-    border: 4px solid #00bd7a;
+    background: #0085FF;
     font: normal normal bold 20px/25px Poppins;
     cursor: pointer;
-    box-shadow: 0 0 5px #00bd7a;
-    outline: none;
+    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
+    border: none;
 }
 
 .tab-btn-css:hover {
-    background: #006e47;
-    box-shadow: 0 0 5px #006e47;
-    border: 4px solid #006e47;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
 }
 
 .active-tab-btn {
-    background: #006e47;
-    border: 4px solid #bd5d26;
-    box-shadow: 0 0 5px #bd5d26;
+    background: #004688;
+    border-radius: 15px;
+    border: none;
+    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
 }
 
 .active-tab-btn:hover {
-    background: #006e47;
-    border: 4px solid #bd5d26;
-    box-shadow: 0 0 5px #bd5d26;
+   border-radius: 5px;
+   border: none;
+   transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
 }
 
 .tabs-settings-content {
@@ -108,9 +109,8 @@
     border: none;
     border-radius: 15px;
     font: normal normal bold 30px/40px Poppins;
-    color: #D1D1D1;
-    background-color: #303030;
-    box-shadow: 1px 2px 5px #585858;
+    color: #ffffff;
+    background-color: #00000080;
     margin: 20px 0;
     margin-bottom: 10px;
 }
@@ -122,21 +122,18 @@
 
 .account {
     display: inline-block;
-    background: #00bd7a;
-    box-shadow: 0 0 5px #006e47;
-    border: 4px solid #00bd7a;
+    background: #004f99;
     font: normal normal bold 30px/40px Poppins;
     width: 500px;
     height: 100px;
     margin: 1% 2%;
-    border-radius: 100px;
+    border-radius: 20px;
     text-align: start;
 }
 
 .account:hover {
-    background: #006e47;
-    box-shadow: 0 0 5px #006e47;
-    border: 4px solid #006e47;
+    border-radius: 10px;
+    border: none;
 }
 
 .account-image {
@@ -169,34 +166,35 @@
 }
 
 .account-delete {
-    margin: -60px 415px;
-    color: #f73434;
-    font-size: 50px;
-    background: #353535c7;
-    box-shadow: 0 0 5px #353535c7;
-    width: 65px;
-    height: 65px;
+    margin: -58px 415px;
+    color: #cc0000;
+    font-size: 35px;
+    background: #ffffff;
+    width: 60px;
+    height: 60px;
     border-radius: 100%;
     cursor: pointer;
     text-align: center;
 }
 
 .icon-account-delete-btn {
-    margin: 7px 9px;
+    margin: 13px 13px;
     position: absolute;
     pointer-events: none;
 }
 
 .active-account {
-    background: #006e47;
-    border: 4px solid #bd5d26;
-    box-shadow: 0 0 5px #bd5d26;
+    background: #0085FF;
+    border-radius: 20px;
+    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
 }
 
 .active-account:hover {
-    background: #006e47;
-    border: 4px solid #bd5d26;
-    box-shadow: 0 0 5px #bd5d26;
+    border-radius: 10px;
+    border: none;
+    box-shadow: none;
+    background: #0054a3;
+    transition: all 0.5s cubic-bezier(1, 0.46, 0, 1.29);
 }
 
 
@@ -238,7 +236,7 @@
     width: 20px;
     height: 10px;
     background: #F1F1F1;
-    border: 4px solid #00bd7a;
+    border: 4px solid #0085FF;
     transition: background-color .2s, border .2s;
     border-radius: 18px;
     cursor: pointer;
@@ -247,7 +245,7 @@
 .slider-touch-left span:after,
 .slider-touch-right span:after {
     content: attr(value);
-    color: #00bd7a;
+    color: #0085FF;
     font: normal normal bold 12px/18px Poppins;
     white-space: nowrap;
     pointer-events: none;
@@ -275,7 +273,7 @@
     display: block;
     height: 100%;
     width: 0%;
-    background: #00bd7a;
+    background: #0085FF;
     transition: background-color .2s;
 }
 
@@ -305,7 +303,7 @@
     font: normal normal bold 13px/20px Poppins;
     border-radius: 18px;
     padding: 8px 30px;
-    background-color: #00bd7a;
+    background-color: #0085FF;
     cursor: pointer;
     margin-left: 20px;
     transition: color .2s, background-color .2s;
@@ -321,7 +319,7 @@
     font: normal normal bold 13px/20px Poppins;
     border-radius: 18px;
     padding: 8px 30px;
-    background-color: #00bd7a;
+    background-color: #0085FF;
     cursor: pointer;
     margin-left: 20px;
     transition: color .2s, background-color .2s;
@@ -421,7 +419,7 @@
 
 .select {
     border-radius: 40px;
-    background-color: #00bd7a;
+    background-color: #0085FF;
     font: normal normal normal 12px/18px Poppins;
     transition: color .2s, box-shadow .2s;
     border: none;
@@ -462,7 +460,7 @@
 }
 
 .checkbox-settings:checked+label {
-    background-color: #00bd7a;
+    background-color: #0085FF;
 }
 
 .checkround {

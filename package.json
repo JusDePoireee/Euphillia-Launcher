@@ -1,11 +1,11 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "1.2.0",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "name": "Euphillia-Launcher",
+    "preductname": "Euphillia Launcher",
+    "version": "1.0.0",
+    "description": "Official launcher of Euphillia",
     "main": "src/app.js",
-    "author": "Luuxis",
-    "url": "http://craftdium.ml/launcherSelvania",
+    "author": "JusDePoire",
+    "url": "http://82.64.183.26:6363/Selvania-Launcher-WEB-Folder/",
     "engines": {
         "node": "^18.x.x"
     },

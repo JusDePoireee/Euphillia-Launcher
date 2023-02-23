@@ -2,7 +2,7 @@
     "name": "Euphillia-Launcher",
     "preductname": "Euphillia Launcher",
     "version": "1.0.0",
-    "description": "Official launcher of Extradia",
+    "description": "Official launcher",
     "main": "src/app.js",
     "author": "JusDePoire",
     "url": "http://82.64.183.26:6363/Selvania-Launcher-WEB-Folder/",

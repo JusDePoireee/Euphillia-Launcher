@@ -1,7 +1,7 @@
 {
     "name": "Euphillia-Launcher",
     "preductname": "Euphillia Launcher",
-    "version": "1.0.0",
+    "version": "1.2.1",
     "description": "Official launcher",
     "main": "src/app.js",
     "author": "JusDePoire",
